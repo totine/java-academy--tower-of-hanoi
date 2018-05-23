@@ -38,7 +38,7 @@ class HanoiTower {
         return hanoiStack.peek();
     }
 
-    public String name() {
+    String name() {
         return name;
     }
 }
