@@ -1,4 +1,4 @@
-class HanoiDisk implements Comparable<HanoiDisk> {
+class HanoiDisk {
 
     private final int size;
 
@@ -11,9 +11,4 @@ class HanoiDisk implements Comparable<HanoiDisk> {
         this.size = size;
     }
 
-
-    @Override
-    public int compareTo(HanoiDisk otherDisk) {
-        return this.size - otherDisk.size;
-    }
 }
